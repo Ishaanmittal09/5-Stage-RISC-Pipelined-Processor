@@ -1,0 +1,15 @@
+RISC_tb1
+
+--- Final Register Values ---
+R1 =         10
+R2 =         20
+R3 =         25
+R4 =         30
+R5 =         55
+
+
+RISC_tb2
+
+--- Memory Operation Results ---
+Mem[120] (Initial):          85
+Mem[121] (Stored):          130
