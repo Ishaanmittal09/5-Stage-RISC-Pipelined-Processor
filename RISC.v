@@ -63,7 +63,7 @@ LW:                          ID_EX_type <= #2 LOAD;
 SW:                          ID_EX_type <= #2 STORE;
 BNEQZ, BEQZ:                 ID_EX_type <= #2 BRANCH;
 HLT:                         ID_EX_type <= #2 HALT;
-default                      ID_EX_type <= #2HALT;
+default:                     ID_EX_type <= #2 HALT;
 
 endcase
 end

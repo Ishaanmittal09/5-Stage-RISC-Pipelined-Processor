@@ -20,7 +20,7 @@ This is a **32-bit MIPS-inspired 5-stage pipelined processor** I built from scra
 
 ### 🚀 How to Run
 1. Open the project in **Vivado**.
-2. Add `Practice.v` as the design source.
-3. Add the testbench files to **Simulation Sources**.
-4. Right-click the desired testbench (`Practice_tb1`, `tb2`, or `tb3`) and select **Set as Top**.
+2. Add `RISC.v` as the design source.
+3. Add the testbench files (`RISC_tb1.v`, `RISC_tb2.v`) to **Simulation Sources**.
+4. Right-click the desired testbench (`RISC_tb1` or `RISC_tb2`) and select **Set as Top**.
 5. Run **Behavioral Simulation** and observe the register updates in the Tcl Console.
